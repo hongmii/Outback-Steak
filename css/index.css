@@ -25,13 +25,6 @@ ol, ul {list-style: none;}
 #skip-nav:focus {top: 0; z-index: 101;}
 
 
-    /* nav */
-    /* #nav {position: fixed; left: 0; top: 0px; width: 100%; height: 75px; z-index: 1000; background-color: rgba(34, 34, 34, 0.678);  transition: all 0.3s ease;}
-    #nav.on {position: fixed; top: -61px;}
-    #nav h2 {float: left; font-size: 40px; padding: 15px 5px 5px 15px; }
-    #nav ul{position: absolute; top: 15px; right: 15px; overflow: hidden;}
-    #nav ul li{float: left; margin-right: 10px;}
-    #nav ul li a{display: block; color: #fff;} */
 
       /* nav */
       #nav {position: fixed; left: 0; top: 0; width: 100%; z-index: 1000; background-color: rgba(34, 34, 34, 0.678);  transition: all 0.3s ease;}
@@ -51,11 +44,6 @@ ol, ul {list-style: none;}
     /* contents */
     #contents {text-align: center;}
     #contents > div {height: 100vh; }
-    /* #contents > div h2 {font-size: 70px; font-weight: 300;} */
-    /* #contents > div h2 strong {font-weight: 700; font-style: italic;} */
-
-    /* section */
-    /* #section1 {background:radial-gradient(ellipse farthest-corner at center top, #A3A1FF, #3A3897);} */
     #section1{background: url(../img/black-bg.jpg)no-repeat; background-size: 100% 100vh; cursor: pointer;}
     
     #section2{position: relative; padding: 0px 0 30px; margin: 0 auto; width: 1180px;}
@@ -119,7 +107,16 @@ ol, ul {list-style: none;}
     #section4 ul.set-info li span{display:block; font-size: 12px; margin-bottom: 2px;}
 
     #section5 {position: relative; margin-top: 70px; padding: 10px 0 80px; background-color: #232323; z-index: 10; width: 100%;}
-    #section5 footer ul.quick-menu{position: absolute; top: 200px; left: 50%;; margin-left: -590px; width: 1180px;; overflow: hidden;}
+    #section5 footer .benefit{margin-top: 80px; height:270px;background: url('../img/main-benefit-visual.jpg') center top no-repeat}
+    #section5 footer .benefit h2{padding-top: 15px; color:#fff; font-size:46px; letter-spacing:2px;}
+    #section5 footer .benefit p{margin-top: 10px; color: #fff; font-size: 16px; opacity: 0.7;}
+    #section5 footer .benefit ul{margin-top: 30px; text-align: center; text-align: center;}
+    #section5 footer .benefit ul li{display: inline-block;}
+    #section5 footer .benefit ul li:nth-child(2){margin: 0 170px;}
+    #section5 footer .benefit ul li .icon{display: block;}
+    #section5 footer .benefit ul li .name{display: block; color: #fff; margin-top: 23px; font-size: 20px; font-weight: 600;}
+    #section5 footer .benefit ul li .info{display: block; margin-top: 10px; color: #fff; font-size: 14px; opacity: 0.7;}
+    #section5 footer ul.quick-menu{position: absolute; top: 200px; left: 50%; margin-top: 180px; margin-left: -590px; width: 1180px;; height: 180px; overflow: hidden;}
     #section5 footer ul.quick-menu li{float: left; width: 33.3%;}
     #section5 footer ul.quick-menu li:nth-child(1){background-color: #907354;}
     #section5 footer ul.quick-menu li:nth-child(2){background-color: #434343;}
@@ -132,7 +129,7 @@ ol, ul {list-style: none;}
     #section5 footer ul.quick-menu li >a span.icon{position: absolute; top: 50px; right: 53px; transition: all .4s}
     #section5 footer ul.quick-menu li >a:hover .icon{top: 40px;}
  
-    #section5 footer .footer-wrap{position: relative; margin: 450px auto 0; width: 1180px; color: #fff; font-size: 13px; box-sizing: border-box;}
+    #section5 footer .footer-wrap{position: relative; margin: 250px auto 0; width: 1180px; color: #fff; font-size: 13px; box-sizing: border-box;}
     #section5 footer .footer-wrap h2{position: absolute; top: 0; left: 0;}
     #section5 footer .footer-wrap ul.footer-menu{position: absolute; top: 0px; right: 0; overflow: hidden; }
     #section5 footer .footer-wrap ul.footer-menu li{float: left; padding-right: 10px; margin-right: 10px; border-right: 1px solid rgba(238, 238, 238, 0.61);}
@@ -144,3 +141,5 @@ ol, ul {list-style: none;}
     #section5 footer .footer-wrap .info-txt-wrap p.btns a{display: inline-block; width: 88px; height: 28px; margin-left: 10px; border: 1px solid #4f4f4f; text-align: center; line-height: 28px;}
     #section5 footer .footer-wrap ul.sns{position: absolute; top: 50px; right: 0px; overflow: hidden;}
     #section5 footer .footer-wrap ul.sns li{float: left; margin-right:10px; }
+
+  
