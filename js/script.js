@@ -34,8 +34,4 @@ $(window).scroll(function(){
         nav.removeClass("active");
         nav.eq(4).addClass("active");
     }
-    if(wScroll >= cont.eq(5).offset().top){
-        nav.removeClass("active");
-        nav.eq(5).addClass("active");
-    }
 });
